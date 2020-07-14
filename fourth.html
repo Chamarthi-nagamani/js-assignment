@@ -1,0 +1,17 @@
+<html>
+     <head>
+       <h1>day and Time</h1>
+       <body>
+          <script>
+            var currentTime=new Date();
+            var day=currentTime.getDay();
+            var daylist=["sunday","monday","tuesday","wednesday","thursday","friday","saturday"];
+            var hh=currentTime.getHours();
+            var mm=currentTime.getMinutes();
+            var ss=currentTime.getSeconds();
+            document.write("sample output : "+"today is : "+daylist[day]);
+              document.write("<br>"+"current time is : "+hh+":"+mm+":"+ss);
+          </script>
+        </body>
+    </head>
+</html>
